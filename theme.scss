@@ -909,7 +909,7 @@ h6 {
 .header-bar {
   @include clearfix();
   font-family: $accentFontStack;
-  font-size: em(16px);
+  font-size: em(20px);
   font-weight: 400;
   background-color: $colorTopBar;
   color: $colorTopBarText;
@@ -1018,7 +1018,7 @@ h6 {
   background-color: #fff;
   border: 0 none;
   border-radius: $radius;
-  min-width: 250px;
+  min-width: 300px;
 
   @include at-query($min, $large) {
     max-width: 160px;
